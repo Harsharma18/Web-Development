@@ -1,0 +1,224 @@
+
+/* h1{
+    color : salmon;
+    background-color: aqua;
+}
+p{
+    color :blueviolet;
+    background-color: cornflowerblue;
+} */
+/* h2{
+    color : orange;
+}
+p{
+    color : white;
+    background-color: black;
+}
+button{
+    color:white;
+    background-color: blue;
+} */
+/* h1{
+    font-family: league spartan;
+    color : #ffa511;
+    text-align:center;
+    font-size: 55px;
+    font-weight:900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double  underline;
+    text-transform: uppercase;
+
+
+} */
+
+/* h1{
+    text-align: center;
+    color : #964B00;
+    font-family: Georgia;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+h3{
+    text-align: center;
+    color : black;
+    font-family: Georgia;
+}
+p{
+    text-align: center;
+    color : brown;
+    font-family: Georgia;
+    line-height: 30px;
+}
+h4{
+    text-align: center;
+    font-family: Georgia;
+}
+textarea{
+    color: #000;
+
+}
+button{
+    background-color: white;
+    color : blueviolet
+}
+a{
+    text-decoration: none;
+    color:green
+} */
+
+/* h1{
+    color : #1b74e4
+    
+}
+.search{
+    background-color: black;
+    color : white;
+}
+.Login{
+    background-color: aqua;
+}
+/* h1,.Login,.search{
+    font-family: Courier New;
+} */
+/* or */
+/* *{
+    font-family: 'Courier New';
+} */ 
+h1{
+  
+    text-align: end; 
+    text-align: start;
+    text-align: left;
+    text-align:right;
+    text-align:center;
+    text-align : justify;
+   
+
+    font-weight: lighter;
+    font-weight: bolder;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+     
+
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration:line-through;
+    text-decoration : wavy underline;
+    text-decoration: dotted line line-through;
+   
+    letter-spacing: 5px;
+      
+    
+}
+a{
+    text-decoration: none;
+}
+p{
+   line-height: 2;
+}
+
+h1,h3{
+    color : brown
+}
+#login{
+    color:red;
+    background-color: blanchedalmond;
+}
+#submit{
+    background-color: cadetblue;
+}
+.upvote{
+  background-color: salmon;
+  color: black;
+}
+.post a{
+    background-color: yellow;
+}
+nav ul li{
+    color: green;
+}
+nav ul li a{
+    color:brown;
+}
+.upvote+button{
+    background-color: cadetblue;
+}
+/* sibling combinator */
+p+h3{
+    text-decoration:underline;
+}
+/* child combinator */
+div>input{
+    background-color: cadetblue;
+    
+}
+
+nav>ul>li>a{
+  background-color: azure;
+    
+}
+/* attribute selector  */
+input[type="text"]{
+    color : red;
+}
+input[type= "password"]{
+    color : green;
+}
+input[type]{
+    color:brown;
+}
+/* pseudo class */
+button:hover{
+    background-color: crimson;
+}
+h3:hover{
+    text-decoration: overline;
+}
+button:active{
+    background-color: aquamarine;
+}
+h3:active{
+    color: green;
+}
+input[type = "radio"]:checked+label{
+    color:green;
+    font-weight: bold;
+}
+.post:nth-of-type(2n){
+    background-color :wheat;
+}
+/* Pseudo element */
+h3::first-letter{
+    color : green;
+}
+.ars::first-line{
+    color: green;
+}
+/* selected paragaph became yellowgreen  */
+.ars::selection{
+    background-color: yellowgreen;
+}
+/* use of important we prefer important */
+h3{
+    color:green !important;
+}
+h3{
+    color : blue;
+}
+div{
+    background-color: yellow;;
+}
+/* use of inheritance fill input with color  */
+input{
+    background-color: inherit;;
+}
+button{
+    background-color: inherit;
+}
+
+
+
+
+
