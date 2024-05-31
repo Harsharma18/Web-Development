@@ -1,0 +1,965 @@
+/* div{
+    height:200px;
+    width: 400px;
+    background-color: cadetblue;
+    border-width:2px;
+    border-style: double;
+    border-color: green;
+} */
+/* div{
+    height:200px;
+    width : 400px; */
+    /* border property */
+    /* border:2px solid green;
+    border-left-color: brown;
+    border-top-color: brown;
+    border-left-style: dashed;
+     border-right-style:dashed;
+     border-radius: 30px;
+     text-align : center; */
+     /* padding property  */
+    /* padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right : 30px; */
+    /* shorthand od padding */
+    /* top right bottom left */
+    /* padding:10px 20px 30px 40px; */
+    /* top&bottom left&right */
+    /* padding:10px 20px; */
+    /* top left&right bottom */
+    /* padding :10px 20px 30px; */
+    /* margin property */
+    /* margin : 30px;
+    margin-top: 60px;
+     margin-bottom: 70px;
+    margin-left: 50px;
+     margin-right: 40px; */
+     /* margin top&bottom left&right */
+     /* margin:10px 20px; */
+     /* margin top left&right bottom */
+     /* margin:10px 20px 30px; */
+     /* margin top right bottom left */
+     /* margin:10px 20px 30px  40px; */
+    
+
+    
+
+/* } */
+/* #box{ */
+    /* if height & width same div became circle */
+    /* height : 300px;
+    width : 300px;
+    border-radius:60%;
+   text-align: center;
+}
+button{
+    background-color: yellow;
+    padding:10px 20px 10px 20px;
+    border-radius: 50%;
+}
+    h1{
+        margin:0;
+    }
+    */
+    /* #outline{
+        height:200px;
+        width: 70px;
+        border:2px solid black;
+    }
+    .inner{
+        height:50px;
+        width:50px;
+        border :2px solid black;
+        border-radius: 50%;
+       text-align: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        margin:10px;
+      
+    }
+    #red{
+        background-color: red;
+        
+    }
+    #yellow{
+        background-color: yellow;
+    }
+    #green{
+        background-color:green;
+    } */
+    /* inline & block */
+    /* h1{
+        display: inline;
+    }
+    span{
+        display:block;
+    } */
+    /* div{
+        height:100px;
+        width:100px;
+        background-color: aquamarine;
+        border:2px solid black;
+        margin:5px;
+        display:inline-block;
+    } */
+    /* for remove div container we write display is none */
+   /* .fourth{
+    display : none;
+   } */
+
+   /* Percentage unit is percent of parent  */
+   /* .outer{
+    height : 200px;
+    width: 200px;
+    background-color: pink;
+    margin: 40px;
+    border:20x solid black;
+    
+   }
+   .inner{
+    height : 100px;
+    width: 100px;
+    background-color: gray;
+    border:2px solid black;
+    border-radius: 30px;
+    margin-left: 10%;
+
+   } */
+
+   /* em & rem units  */
+   /* em means font size is 20 px in outer(parent)class then inner is 1em means 20 px 2em means 40px
+   padding is according to inner class font size is 1em means 20 px so padding is also 20px */
+   /* .outer{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    color : brown;
+    font-size: 20px;
+   }
+   .inner{
+    height: 100px;
+    width: 100px;
+    background-color: salmon;
+    color: black;
+    font-size: 1em;  
+    padding-left :1em;
+   }
+   button{
+    background-color:yellow;
+    border-radius: 30px;
+    font-size: 40px;
+    padding-left:1em;
+    padding-right : 1em;
+
+   } */
+
+   /* rem  snowball effect size increase sectio has differnt size div has 
+   different size*/
+   /* section{
+    font-size:15px;
+   }
+   
+   div{
+    font-size:3em;
+   } */
+/* for same change we use rem  */
+/* section{
+    font-size:15px;
+   }
+   
+   div{
+    font-size:2rem
+   } */
+/* practice question */
+   /* #box{
+    height:150px;
+    width:300px;
+    background-color: grey;
+    border:5px dotted black;
+    margin-top:20px;
+    margin-right:1em;
+    margin-bottom: 40px;
+    margin-left:2em;
+    padding:1em;
+
+   } */
+   /* div{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    border:2px solid black;
+    border-radius: 50%;
+    display:inline-block;
+   } */
+   /* bullet points disapper after inline   */
+   /* li{
+    display:inline;
+   } */
+   /* css part 4 */
+   /* alpha & opacity */
+/* in alpha when alpha is 0 div is hidden but heading appear but with 
+opacity heading also hidden  */
+  /* div{
+    height: 100px;
+    width:100px;
+    background-color:rgba(255,0,0,0);
+    
+  } */
+  /* opacity hidden text and button also in div  */
+  /* #opacity{
+    border:2px solid black;
+    padding : 10px;
+    margin:10px;
+    background-color: blue;
+    opacity: 1;
+
+  } */
+ /* div{
+    height:100px;
+    width:100px;
+    background-color: aquamarine; */
+    /* transition:3s;
+    transition-duration:3s;
+    transition-delay: 3s;
+    transition:3s,3s;
+    margin : auto; */
+    /* margin:auto;
+    transition : margin-top 3s ease-in 3s;
+ } */
+ /* div:hover{
+    background-color: brown;
+    border-radius:50%;
+    margin-top:300px;
+    
+ } */
+ 
+ /* section{
+    margin-top:10px;
+ }
+ div{
+    height:50px;
+    width:200px;
+    background-color: rgba(255,0,255,0.3);
+    text-align:center;
+    border:2px solid blanchedalmond;
+    margin:10px;
+    padding:10px;
+   
+   
+    
+ }
+ div:nth-of-type(2n){
+    background-color:rgba(255,0,0,0.2);
+    
+
+ }
+ div:nth-of-type(3n){
+    background-color:rgba(0,255,0,0.3);
+ } */
+ /* for rotate */
+ /* #one{
+    transform: rotate(45deg);
+    transform: rotate(-174deg);
+    transform:translatex(100px)
+    
+ } */
+ /* use of scale is increase and decrease size */
+ /* #two{
+    transform:scale(0.4); */
+    /* if we want change x and y axis differnt */
+    /* transform:scale(0.5,1);
+    transform:translate(-100px);
+    
+    
+ } */
+ /* translate  */
+ /* #three{
+    transform:translate(100px,100px);
+    transform:translatex(100px);
+    transform:translatey(200px);
+    transform:translate(-100px);
+   
+
+ } */
+
+ /* #four{
+    transform:translatey(200px);
+    transform:skew(45deg);
+    transform: skew(-45deg);
+ }
+#five{
+    transform:rotate(30deg) translatex(100px) skew(45deg);
+    
+} */
+/* box-shadow x offset yoffset blurradius color */
+ /* div{
+    height :100px;
+    width:100px;
+    background-color:gray;
+    
+ }
+ div:hover{
+    box-shadow: 2px 2px 50px green;
+ }
+div:active{
+    box-shadow: 2px 2px 50px red;
+} */
+/* background image  */
+/* div{
+    height:300px;
+    width:300px;
+    background-color: aqua;
+    margin:auto;
+    margin-top : 100px;
+    background-image: url(BMW.jpg); */
+    /* contain repeat img if size is large */
+    /* background-size: contain; */
+     /* auto show stretch image */
+     /* background-size: auto; */
+      /*cover show crop image we prefer this   */
+      /* background-size: cover;
+      color : black;
+      
+}
+   */
+   /* card hover effect */
+   /* .card{
+    height: 300px;
+    width:200px;
+    border:2px solid black;
+    display: inline-block;
+    margin:10px;
+    border-radius:5px;
+    box-shadow: 2px 4px 8px black;
+    transition : 2s 2s;
+    padding : 10px
+   }
+  img{
+    width:100%;
+    border-radius:5px 5px 0 0;
+  }
+  .card:hover{
+    box-shadow: 8px 8px 30px green;
+    font-weight: bold;
+  } */
+/* div {
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    border:2px solid black;
+    display :inline-block;
+    margin:10px;
+    padding:10px;
+} */
+/* if we create third div then it remain space for 2nd div
+third div placed on third position */
+/* .Relative{
+    position:relative;
+    left:100px;
+    top:10px;
+} */
+/* but in absolute when we create another div 
+then it cannot put space for second div  */
+/* .Absolute{
+    position:absolute;
+    left:100px;
+    top:100px;
+} */
+/* .fixed{
+    position:fixed;
+    left:100px;
+    top:100px;
+} */
+/* .face{
+    height:400px;
+    width:400px;
+    background-color: #ffa511;
+    border-radius: 50%;
+   
+}
+.mouth{
+    width:200px;
+    height:75px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position:absolute;
+    left:100px;
+    top:250px;
+}
+.left ,.right{
+    width:50px;
+    height:50px;
+    background-color: black;
+    border-radius: 50%;
+    display:inline-block;
+    position:absolute;
+    left:120px;
+    top:90px;
+    
+}
+.right{
+    left:240px;
+}
+
+ 
+ */
+
+ /* Practice Question  */
+ /* #box1{
+    height:100px;
+    width:100px;
+    background-color: green;
+    transition:width 2s ease-in 0.5s'
+   
+ }
+ #box1:hover{
+    width:600px;
+ }
+ #box2{
+    height:100px;
+    width:100px;
+    background-color: red;
+       transform: translate(200px ,200px) rotate(90deg);
+ }
+ #box3{
+    height:100px;
+    width:100px;
+    background-color: lightblue;
+    transform:skewX(20deg);
+ }
+ #box4{
+    height:100px;
+    width:100px;
+    background-color: lightgreen;
+    box-shadow:2px 2px 5px green;
+ }
+ #myPic{
+    height:200px;
+    width:200px;
+    background-color: pink;
+    background-image: url(BMW.jpg);
+    background-size: cover;
+    opacity:0.5;
+ }
+  */
+  /* Flexbox */
+  /* #container{
+    height:300px;
+    width:80%;
+    border:2px solid black ;
+    
+    margin : auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;; */
+    /* for shrink we remove wrap
+    for flex grow er put flex wrap */
+    /* flex-wrap: wrap; */
+    /* align-content:flex-start;
+    font-size: 20px;
+     */
+
+    /* flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around; */
+    /* equal space  */
+    /* justify-content : space-evenly;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    justify-content: flex-start; */
+    /* flex wrap by default no wrap
+    it adjust original size  */
+    /* flex:nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+    /* align items  */
+    /* align-items : flex-end; */
+    /* flex-direction: row;
+    justify-content: flex-end ;   */
+    /* flex-wrap: wrap; */
+    
+    /* along cross axis  */
+    /* align-items: flex-start; */
+    /* using base line all text in same line  */
+    /* align-items: baseline; */
+    /* align-content: end;
+   align-content: space-around;
+   align-content: space-between;
+   align-content : space-evenly; */
+   /* align-content:baseline; */
+    /* align-content: flex-start; */
+    /* align-self has more priority */
+    
+   
+    
+
+   
+
+  /* }
+  h1{
+    text-align: center;
+  }
+  div{
+    height:70px;
+    width:300px;
+    
+  } */
+  /* #red{
+    align-self: flex-end;
+    flex-basis: 400px;
+     min-width: 400px;
+    max-width:450px; 
+} */
+/* #violet{ */
+    /* align-self: flex-start;
+      flex-basis: 100px; */
+      /* all space occupied by flex-grow */
+ /* flex-grow: 1;
+
+} */
+/* #indigo{ */
+    /* when we write flex-grow in both id or class 
+    for eg violet and red divide equal 1:1 width */
+    /* flex-grow:1;
+} */
+/* #green{
+   flex-shrink:1;
+}
+#yellow{
+    flex-shrink:2;
+} */
+/* Practice Question */
+/* .Container{
+    height:400px;
+    width:400px; 
+    border:2px solid aqua;
+    background-color: white;;
+    
+}
+.box{
+    height:100px;
+    width:100px;
+    font-size: 50px;
+    text-align: center;
+    
+    
+}
+div{
+    background-color: grey;
+    border:2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+     border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+/* .container{
+    height:50px;
+    width:900px;
+    background-color: pink;
+    border:2px solid aqua;
+    border-radius:15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   align-items: center;;
+    
+    
+}
+.nav{
+    height:50px;
+    width:80px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+     font-weight: bold;
+    
+}
+.Logo{
+    height:30px;
+    width:30px;
+    background-image: url(logo.png);
+    background-size: cover;
+    display: flex;
+   margin-left: 10px;
+
+} */
+/* .container{
+    height:300px;
+    width:80%;
+    background-color: yellowgreen;
+    border:2px dashed rebeccapurple; */
+    /* display: grid; */
+    /* display:inline-grid;
+} */
+    /* grid-template-rows:60px 60px 60px 60px 60px;
+    grid-template-columns: 90px 90px 80px; */
+    /* auto is not proper way so we use magnitude */
+    /* grid-template-columns: auto auto auto auto ; */
+    /* this is mainly used for one dimensional
+    if we want row or column in equal then we used 
+    for only row or columne this is not beneficial */
+    /* grid-template-rows: repeat(2 , 1fr); */
+    /* or  */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr 1fr 1fr; */
+    /* row-gap: 10px;
+    column-gap:10px;
+    /*  */
+    /* grid-gap: 20px 20px; */
+   /* grid-template-rows: repeat(3,1fr);
+   grid-template-columns: repeat(3,1fr);
+   grid-gap:10px; */
+   /* justify-items:end;
+   justify-items: start;
+   align-items:end;
+   align-items:start;
+   justify-items: center;
+   align-items:center; */
+   /* place items contain both property justify-items&align-items */
+   /* place-items: center; */
+  
+    
+/* }
+.item{
+    height:50px;
+    width:70px;
+    background-color: aquamarine;
+    border:2px solid black; 
+} */
+/* .one{ */
+    /* if we mention height and width of container then
+    it remain his place but put space we cant fill another container */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* or */
+
+    /* grid-column: 1/3; */
+    /* or  span means after ist line how many column you need
+    here after line1 two column require  */
+    /* grid-column:1/span 2; */
+    /* grid-row */
+    /* grid-row-start: 1;
+    grid-row-end: 3;
+    grid-row:1/4;
+    grid-row:1/span 4; */
+/* }
+.two{ */
+    /* justify-self: center;
+    align-self: center; */
+    /* place-self: center;
+}  */
+/* Animation */
+/* .container{
+    height:100px;
+    width:300px;
+    background-color: pink;
+    Animation-name:fontAnimation;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation:colorAnimate 2s ease-in 2s infinite alternate;
+    animation: widthAnimate 2s ease-in-out 2s infinite reverse;
+    animation: colAnimate 5s ease-in-out 5s infinite alternate;
+}
+@keyframes fontAnimation{
+    from{
+        font-size: 30px;
+    }to{
+        font-size: 50px;;
+    }
+}
+@keyframes colorAnimate{
+    from{
+        background-color: pink;
+    }
+    to{
+        background-color: blue;
+    }
+}
+@keyframes widthAnimate{
+    from{width:50px;
+    background-color:pink;}
+    to{
+        width:300px;
+        background-color: aqua;
+    }
+
+}
+@keyframes colAnimate{
+    0%{
+        width:30px;
+        background-color: pink;
+    }
+    50%{
+        width:60px;
+        background-color: aqua;
+    }
+    80%{
+        width:80px;
+        background-color: aquamarine;
+        
+    }
+    100%{
+        width:300px;
+        background-color: brown;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+ */
+ /* h1{
+    background-color: greenyellow;
+ } */
+ /* @media(width:400px){
+    h1{
+        color:white;
+    }
+ div{
+    height:100px;
+    width:100px;
+    background-color: aquamarine;
+ }
+} */
+
+/* @media(min-width:400px){
+    h1{
+        color:white;
+    }
+ div{
+    height:100px;
+    width:100px;
+    background-color: aquamarine;
+ }
+} */
+/* @media(max-width:700px){
+    h1{
+        color:white;
+    }
+ div{
+    height:100px;
+    width:100px;
+    background-color: aquamarine;
+ }
+} */
+/* @media(min-width:400px) and (max-width:700px){
+    h1{
+        color:white;
+        background-color: brown;
+    }
+ div{
+    height:100px;
+    width:100px;
+    background-color: aquamarine;
+ }
+
+} */
+/* @media(orientation:landscape){
+    h1{
+        color:white;
+    }
+ div{
+    height:100px;
+    width:100px;
+    background-color: aquamarine;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    display:flex;
+    align-items: center;
+ }
+} */
+/* z-index */
+/* .box{
+    height:150px;
+    width:150px;
+    border:2px solid black;
+    
+}
+.one{
+    background-color: antiquewhite;
+    position:relative;
+    z-index: 1;
+}
+.two{
+    background-color: blanchedalmond;
+    position:relative;
+    z-index: 1;
+    
+}
+.three{
+    background-color: aquamarine;
+   position:relative;
+   bottom:100px;
+} */
+/* pet adoption page */
+/* .card{
+    width:400px;
+    border:2px solid black;
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+    border-radius:25px;
+
+}
+img{
+    width:80%;
+    border-radius:25px;
+}
+h3,p{
+    padding:10px;
+}
+.card:hover{
+   box-shadow:8px 8px 25px green;
+}
+h4{
+    text-align: right;
+    color:green;
+}
+span {
+    color: #9d6f24;
+  }
+  h2 {
+    color: #d56f3e;
+  }
+  #pets {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  @media(max-width:400px){
+    #pets{
+        flex-wrap:wrap;
+    }
+  }
+
+ */
+/* .container{
+    height:600px;
+    width:600px;
+     background-color: white;
+     border:2px solid pink;
+     display:grid;
+     grid-template-rows:repeat(12,fr);
+     grid-template-columns: repeat(12,fr);
+     grid-gap:10px;
+}
+.container div{
+    background-color: pink;
+    font-size: 1.5em;
+}
+
+.header{
+    grid-column: 1/ span 12;
+
+
+}
+.sidebar{
+    grid-column:1/span 3;
+    grid-row:2/span 10;
+}
+.navigation{
+    grid-column: 4/span 6;
+    grid-row:2/span 1;
+}
+.main{
+    grid-row:3/span 9;
+    grid-column:4/span 6;
+}
+.ads{
+    grid-column:10/span 3;
+    grid-row:2/span 10;
+}
+.footer{
+    grid-column:1/span 12;
+
+}
+ */
+/* @media(max-width:720px){
+    .container{
+        height:600px;
+        width:600px;
+         background-color: white;
+         border:2px solid pink;
+         display:grid;
+         grid-template-rows:repeat(12,fr);
+         grid-template-columns: repeat(12,fr);
+         grid-gap:10px;
+    }
+    .container div{
+        background-color: pink;
+        font-size: 1.5em;
+    }
+    .header{
+        grid-row:1/span 1;
+        grid-column:1/span 12;
+    }
+    .navigation{
+        grid-row:2/span 1;
+        grid-column:1/span 12;
+    }
+    .sidebar{
+        grid-row:3/span 9;
+        grid-column:1/span 3;
+    }
+    .main{
+        grid-row:3/span 9;
+        grid-column:4/span 9;
+    }
+    .ads{
+        grid-row:12/span 1;
+        grid-column:1/span 3;
+    }
+    .footer{
+        grid-row:12/span 1;
+        grid-column:4/span 9;
+    }
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-top: 16px solid goldenrod;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear  infinite; 
+        
+    }
+    
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg); 
+        }
+        100% {
+            transform: rotate(360deg); 
+        }
+    }
+    
+
+} */
