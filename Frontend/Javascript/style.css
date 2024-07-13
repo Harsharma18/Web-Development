@@ -1,0 +1,60 @@
+/* 
+body {
+  font-family: Arial;
+}
+.red{
+  background-color: black;
+  color:purple;
+}
+
+.underline{
+  text-decoration:underline black wavy;
+}
+
+
+#mainImg {
+  width: 35%;
+}
+
+
+.box {
+  border: 0.25px solid black;
+  background-color: lightgray;
+  width: 200px;
+  padding: 1rem;
+}
+.yellowbg{
+  background-color: yellow;
+}
+.boxLink {
+  text-decoration: none;
+}
+
+.oldImg {
+  height: 200px;
+  width: 200px;
+  margin-right: 1rem;
+}
+
+#description {
+  background-color: antiquewhite;
+}
+ */
+ .red{
+  color : red;
+  
+ }
+ .blue{
+  color :blue;
+  
+ }
+ .div{
+  background-color: pink;
+  border: 5px,solid ,black;
+ }
+ .box{
+  height:100px;
+  width:100px;
+  background-color: pink;
+  border: 2px solid black;
+ }
