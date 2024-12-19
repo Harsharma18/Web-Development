@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+ <link rel = "stylesheet" href = "/basic.css">
+</head>
+<body>
+    <!-- <h1>This Page Belongs to @<user</h1> //write ejs documentation for print user
+
+    <button>Follower</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button>Following</button>
+    <hr>
+    <h3>Followers that can follow you :</h3>
+    <ul>
+       for(let name of followers){ write ejs documentation for print name
+             <li>name</li>   write ejs documentation for print name
+        } write ejs documentation
+    </ul> -->
+   <!-- Casual Greetings and Social Buttons -->
+<hr>
+<h1>Hey there! Check out what's up with @<%= data.name %>!</h1>
+<button>Follow</button> &nbsp;&nbsp;&nbsp;
+<button>Drop a Message</button>
+<hr>
+
+<p>
+    Followers: <%= data.followers %> &nbsp;&nbsp;&nbsp;&nbsp;
+    Following: <%= data.following %>
+</p>
+<hr>
+<div class="pcontainer">
+    <% for(let post of data.posts){ %>
+        
+        <div class="post">
+            <img src="<%= post.image %>" alt="Image not available"/>
+            <br>
+            <div class="pdetails">
+                <button><%= post.likes %> 🩷 </button> &nbsp;&nbsp;&nbsp;&nbsp;
+                <button><%= post.comments %>💬</button>
+            </div>
+            <br>
+            <br>
+        </div>
+    <% } %>
+</div>
+
+</body>
+<script src="/basic.js"></script>
+</html>
